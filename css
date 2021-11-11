@@ -1,0 +1,233 @@
+
+body {
+
+    background: #e2dddd;
+    margin: 0;
+    font-size: 18px;
+   
+}
+.wrapper {
+
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+
+    .logo {
+
+        width: 100px;
+        margin: 0;
+     
+    }
+    h1 {
+
+        margin: 1em 0;
+        line-height: 60px;
+        border-radius: 20px;
+        
+      
+        
+    }
+
+    p {
+        
+        line-height: 27px;
+       
+        
+        
+
+
+
+
+
+    }
+    .left {
+
+        background: #3352c4;
+        padding: 25px;
+
+
+
+        h1,p {
+
+
+            color: white;
+        }
+
+        .light {
+
+        color: #C3C3C3;
+        margin-top: 50px;
+
+        }
+
+    
+    }
+    .right p {
+
+      margin-top: 40px;
+      color: black;
+
+    }
+    .photo {
+
+        
+        width: 100%;
+        text-align: center;
+    
+    .me {
+
+        margin-top: 5em;
+        width: 50px;
+        
+    
+    }
+
+    .arrow {
+       
+        width: 13em;
+        margin-right: 30px;
+    
+    }
+
+
+    }
+
+    input,button {
+
+        width:  calc(100% - 3em);
+        padding: .5em ;
+        font-size: 1.3rem;
+        outline: none;
+        margin: 1em;
+    }
+    button {
+
+        width: calc(100% - 2em);
+        background: #3352c4;
+        color: white;
+        margin: 0;
+        border: none;
+        cursor: pointer;
+        
+    } 
+   
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    body {
+
+        font-size: 20px;
+       
+      
+    }
+    button {
+
+        width: 60% !important;
+    }
+    input {
+
+        width: calc(60% - 1em) !important;
+    }
+    
+}
+@media only screen and (min-width: 1024px) {
+
+    .logo {
+
+        margin: 1em 0;
+    }
+    p {
+        line-height: 1.7em !important;
+    }
+
+    /* we flip out into two*/
+    
+    .inner {
+        display: grid;
+        
+        grid-template-columns: 55% auto;
+    
+    .left{
+        
+        display: grid;
+
+        height: 100vh;
+        text-align: left;
+        
+    }
+    .content {
+
+        padding: 0 3em;
+        display: block;
+    }
+    h1 {
+        margin: 0;
+        font-size: 50px;
+        
+        span {
+            display: block;
+        } 
+        
+    }
+    .right {
+
+        align-self: center;
+       
+    }
+    
+
+}
+
+.proto-container {
+
+    clip-path: inset(0 45% 0 0);
+    position: absolute;
+    top: 20%;
+    height: 70%;
+    z-index: 0;
+    width: 100%;
+    pointer-events: nones;
+
+
+    .proto {
+
+        border: 3px solid rgba(255,255,255,.1);
+        width: 19%;
+        height: 80%;
+        float: left;
+        margin-left: 1em;
+        transform: translatex(10%);
+        
+    }
+
+
+
+
+
+}
+
+}
+@media only screen and (min-width: 1600px) {
+
+    body {
+
+        font-size: 22px;
+       
+      
+    }
+    content {
+
+        padding: 0 6em !important;
+    }
+
+    
+    .right {
+
+        padding: 0 !important;
+    }
+
+}
+
